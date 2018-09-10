@@ -60,7 +60,8 @@ group :development do
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 
   # This makes errors better looking...
-  gem 'better_errors', '~> 2.5'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :test do
